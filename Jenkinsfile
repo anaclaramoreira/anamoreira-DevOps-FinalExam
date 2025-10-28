@@ -48,5 +48,13 @@ pipeline {
                             sudo rm -rf /var/www/html/*
                             sudo git clone https://github.com/anaclaramoreira/anamoreira-DevOps-FinalExam.git /var/www/html
 
-                            echo "--- Deploy to S
+                            echo "--- Deploy to Server 2 finished ---"
+                        '
+                        """
+                    }
+                }
+            }
+        }
+    }
+}
 
