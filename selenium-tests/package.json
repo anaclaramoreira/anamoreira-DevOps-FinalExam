@@ -1,0 +1,13 @@
+{
+  "name": "tictactoe-tests",
+  "version": "1.0.0",
+  "description": "Selenium tests for Tic-Tac-Toe",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0",
+    "chromedriver": "^119.0.0"
+  }
+}
