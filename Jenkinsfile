@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'dynamic' }
+    agent { label 'permanent' }
 
     stages {
         stage('Deploy to Production Env 1') {
